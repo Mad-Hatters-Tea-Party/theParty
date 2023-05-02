@@ -41,7 +41,7 @@ int main()
 	cout << "After subtracting 9 from digit if digit is greater than 9: " << endl;
 	int sum = 0; // for next step doing a bit of combining into this step
 	for (int i = 0; i < 15; i++)
-	{
+	
 		if (CCN_ary[i] > 9)
 		{
 			CCN_ary[i] = CCN_ary[i] - 9; 
@@ -54,7 +54,7 @@ int main()
 		cout << CCN_ary[i]; 
 
 		sum = sum + CCN_ary[i]; // again for next step
-	}
+	
 	cout << endl << endl;
 
 	cout << "Sum of digits is " << sum << endl << endl; 
